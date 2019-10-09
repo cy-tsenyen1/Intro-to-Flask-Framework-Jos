@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<ul>
+    {% for fellow in fellows %} 
+        <li> {{ fellow }} </li>
+        {% endfor %}
+</ul>
+{% endblock %}
