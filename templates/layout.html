@@ -4,9 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>News24</title>
+    <!-- <link rel="stylesheet" href="{{url_for('static', filename='css/bootstrap.min.css')}}"> -->
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
 </head>
 <body>
-    {% block body %} {% endblock %}
+
+    <div class="container">
+    {% include 'includes/_messages.html' %}
+    {% include 'includes/_navbar.html' %} 
+    {% from "includes/_formhelpers.html" import render_field %}
+    
+    {% block body %} {% endblock%}
+    </div>
+
+    <script src="/static/js/jquery-slim.min.js"></script>
+    <script src="/static/js/bootstrap.bundle.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <div class="text-center bg-primary">
+        <b>Copyright &copy Cyril2019</b>
+    </div>
 </body>
+
+    
 </html>

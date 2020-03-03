@@ -1,0 +1,23 @@
+1. handle duplicate registration
+2. implement password strenght
+3. password reset
+4. picture or file uploads
+5. email confirmation
+6. access control
+    -deactivate account
+    -block user
+7. mailing list
+8. comment section under the article
+
+
+
+
+#tomorrrow
+
+
+#Assignment
+create a table (article) with the following fields,
+author
+title
+body
+date

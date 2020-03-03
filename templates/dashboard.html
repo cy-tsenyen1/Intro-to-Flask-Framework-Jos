@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block body %}
+<div>
+<h1>Admin Panel <small>Welcome {{session.username}}</small> </h1>
+</div> 
+<a class="btn btn-success" href="/add_article">Add Article</a>
+<hr>
+
+{% endblock %}
